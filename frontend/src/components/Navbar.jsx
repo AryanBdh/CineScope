@@ -35,7 +35,7 @@ export default function Navbar() {
             <Film size={16} className="text-white" />
           </div>
           <span className="font-display font-bold text-lg hidden sm:block tracking-tight">
-            CineScope
+            MovieFlix
           </span>
         </Link>
 

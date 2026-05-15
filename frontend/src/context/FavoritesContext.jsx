@@ -5,14 +5,14 @@ const FavoritesContext = createContext()
 export function FavoritesProvider({ children }) {
   const [favorites, setFavorites] = useState(() => {
     try {
-      return JSON.parse(localStorage.getItem('cinescope-favorites') || '[]')
+      return JSON.parse(localStorage.getItem('movieflix-favorites') || '[]')
     } catch {
       return []
     }
   })
 
   useEffect(() => {
-    localStorage.setItem('cinescope-favorites', JSON.stringify(favorites))
+    localStorage.setItem('movieflix-favorites', JSON.stringify(favorites))
   }, [favorites])
 
   const toggleFavorite = (movie) => {

@@ -1,4 +1,4 @@
-# CineScope - Movie Discovery App
+# MovieFlix - Movie Discovery App
 
 A modern, responsive movie browsing application built with React and Tailwind CSS.
 
