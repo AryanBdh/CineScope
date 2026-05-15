@@ -57,7 +57,6 @@ Visit [http://localhost:5173]
 | **Prop Drilling** | SearchContext prevents passing through 4+ levels |
 | **Responsive Grid** | Tailwind: grid-cols-1 sm:2 md:3 lg:4 xl:5 |
 | **Favorites Persistence** | localStorage sync in context with JSON |
-| **MovieDetail Width** | Increased from max-w-2xl to max-w-4xl |
 | **Image Loading** | Skeleton cards + lazy loading attributes |
 
 ## Technologies & Learning
