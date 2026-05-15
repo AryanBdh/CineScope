@@ -46,7 +46,7 @@ export default function MovieDetail() {
             <X size={16} />
           </button>
 
-          {/* Poster + title row */}
+          {/* Poster*/}
           <div className="absolute bottom-0 left-4 right-4 flex items-end gap-3 pb-3">
             {poster(data.poster_path) && (
               <img

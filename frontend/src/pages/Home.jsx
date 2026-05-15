@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       )}
 
-      {/* Filters — hide when searching */}
+      {/* Filters */}
       {!searchQuery && (
         <Filters filters={filters} onChange={setFilters} />
       )}
@@ -89,7 +89,6 @@ export default function Home() {
           <div>
             <p className="font-semibold">Failed to load movies</p>
             <p className="text-xs mt-0.5 opacity-75">{error}</p>
-            <p className="text-xs mt-0.5 opacity-60">Make sure VITE_TMDB_KEY is set in your .env file</p>
           </div>
         </div>
       )}
